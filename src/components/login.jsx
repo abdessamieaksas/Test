@@ -13,7 +13,7 @@ const Login = () => {
 
     try {
       // Replace with your actual PHP API endpoint
-      const response = await axios.post('https://testpage1.infinityfreeapp.com/fetchLogins.php', {
+      const response = await axios.post('https://testpage1.infinityfreeapp.com/Logins.php', {
         username: username,
         password: password,
       });
